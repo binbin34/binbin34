@@ -1,0 +1,93 @@
+body{    
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    background-color: rgb(84, 122, 109); 
+    display: flex;
+    justify-content: center;  /* 水平置中 */
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1{
+    margin: 10px;
+    padding: 10px; 
+    font-size: 25px;
+    color:  rgb(84, 122, 109);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    margin: 10px;
+}
+
+form{
+    background-color: rgb(255, 254, 255);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+
+label{
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: rgb(84, 122, 109);
+}
+
+.form-group{
+    margin: 10px;    
+    display:flex;
+    flex-direction:column;
+}
+
+.form-group-inline{
+    display: flex;
+    margin: 10px;
+    flex-direction: row !important;
+}
+
+
+button{
+    background-color: rgb(84, 122, 109); 
+    color: white; border: none; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    height: 35px;
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"]
+{
+border: none;
+outline : none;
+padding: 10px;
+width: 100%;
+box-sizing: border-box;  
+border : solid .2px rgb(84, 122, 109);
+border-radius: 12px;
+background-color :  #fff;
+outline:none;}
+
+label[for="gender"],
+label[for="interest"]{
+    margin-bottom: 0px !important;
+}
+
+
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border : solid .2px rgb(84, 122, 109);
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: rgba(250, 250, 250, 0.3);
+}
